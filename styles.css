@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #ffffff;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: "Roboto", sans-serif;
 }
 nav ul li {
@@ -144,7 +144,7 @@ footer {
 }
 
 .services-intro h2 {
-  margin-top: -330px;
+  /* margin-top: -330px; */
   color: #ffffff;
 }
 
@@ -351,7 +351,7 @@ p {
   }
 
   .services-intro h2 {
-    margin-top: -290px;
+    /* margin-top: -290px; */
     color: #ffffff;
     font-size: 33px;
   }
@@ -435,7 +435,7 @@ p {
   }
 
   .services-intro h2 {
-    margin-top: -290px;
+    /* margin-top: -290px; */
     color: #ffffff;
     font-size: 28px;
   }
