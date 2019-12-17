@@ -479,5 +479,88 @@ p {
   }
 }
 
-@media (max-width: 514px) {
+@media (min-width: 514px) {
+  .hide-im {
+  display: none;
 }
+}
+
+@media (max-width: 514px) {
+  .link_2 {
+  background: #ffb800;
+  border-radius: 4px;
+  color: white;
+  position: fixed;
+  right: 10px;
+}
+
+.link_1 a {
+  color: #000000;
+  margin-right: 40px;
+}
+
+.link_2 a {
+  color: #ffffff;
+}
+
+.logo {
+  margin: 1px!important;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.hide-img {
+  display: none;
+}
+
+.movers {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.choose {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+/* first section */
+.first_section {
+  background: rgba(0, 0, 0, 0.37);
+  background-position: center;
+  height: 450px;
+  background-image: linear-gradient(to bottom, rgba(46, 53, 48, 0.52), rgba(27, 25, 27, 0.73)), url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576163777/image_1_d4zjmf.png");
+}
+
+.intro_text {
+  margin-top: 170px;
+}
+
+.intro_text h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  /* line-height: 56px; */
+  color: #ffffff;
+}
+
+.intro_text p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.intro_text span {
+  color: #ffb800;
+}
+}
+
+
+
+
+
+
+
