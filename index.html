@@ -40,34 +40,34 @@
   </head>
   <body>
     <div class="">
-    <!-- nav start -->
-    <header>
-      <nav class=" d-flex justify-content-between  navbar">
-        <div class="logo ml-5">
-          <img
-            src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576158338/Group_3_uqrvap.jpg"
-            alt="logo"
-          />
-        </div>
-        <div class="links d-flex  mt-2">
-          <ul class="d-flex mr-auto">
-            <li class="nav-item link_1 mr-5">
-              <a class="nav-link " href="">Help</a>
-            </li>
-            <li class="nav-item link_2">
-              <a class="nav-link" href="">Hire a Truck</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- nav end -->
+      <!-- nav start -->
+      <header>
+        <nav class=" d-flex justify-content-between  navbar">
+          <div class="logo ml-5">
+            <img
+              src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576158338/Group_3_uqrvap.jpg"
+              alt="logo"
+            />
+          </div>
+          <div class="links d-flex  mt-2">
+            <ul class="d-flex mr-auto">
+              <li class="nav-item link_1 mr-5">
+                <a class="nav-link " href="">Help</a>
+              </li>
+              <li class="nav-item link_2">
+                <a class="nav-link" href="">Hire a Truck</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- nav end -->
 
-    <!-- intro -->
-    <section id="intro" class="">
-      <div class="intro row first_section">
-        <div class="container intro_text">
-          <!-- <div class="row"> -->
+      <!-- intro -->
+      <section id="intro" class="">
+        <div class="intro row first_section">
+          <div class="container intro_text">
+            <!-- <div class="row"> -->
             <div class="col my-auto">
               <h1>Lets's get you <span>Moving</span></h1>
               <p>
@@ -75,298 +75,389 @@
                 Consequuntur suscipit nihil quia, inventore molestiae<br />
                 quo qui tempora, ratione mollitia, repellendus obcaecati.
               </p>
+
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn  hide-modal"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                Getting Started
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        How will you like your next move?
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-row">
+                          <div class="col">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Move From"
+                            />
+                          </div>
+                          <div class="col">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Move To"
+                            />
+                          </div>
+                          <div class="col">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Move Time"
+                            />
+                          </div>
+                          <div class="col">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Move Date"
+                            />
+                          </div>
+                          <!-- <button type="submit" class="btn btn-primary mb-2">Get Quote</button> -->
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
             </div>
-          <!-- </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- into-end -->
+
+      <!-- next move container -->
+      <div class="next-move container p-4 mx-auto hide">
+        <h2 class="mb-4">How will you like your next move?</h2>
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Move From" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Move To" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Move Time" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Move Date" />
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">
+              Get Quote
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- next move container END -->
+
+      <!-- About movers -->
+      <section>
+        <div class="container  movers">
+          <div class="row">
+            <div class="col movers-text my-auto">
+              <h5>ABOUT MOVERS</h5>
+              <h2>Best Moving Company Worldwide</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+                dolore ipsa quae deleniti corporis consectetur?
+              </p>
+            </div>
+            <div class="col">
+              <img
+                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576343322/image_2_1_tynukp.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About movers -->
+
+      <!-- why choose movers -->
+      <section>
+        <div class="container  choose-movers">
+          <div class="choose-header text-center mt-5">
+            <h5>WHY CHOOSE MOVERS</h5>
+            <h2>We Make Moving Easy For You</h2>
+          </div>
+          <div class="row mt-5 choose">
+            <div class="col">
+              <h2>01</h2>
+              <h3>Free Quotes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, velit laudantium corrupti voluptatibus quam illo!
+              </p>
+              <span>free quotes</span>
+            </div>
+            <div class="col">
+              <h2>02</h2>
+              <h3>Reliable</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, velit laudantium corrupti voluptatibus quam illo!
+              </p>
+              <span>Near By Movers</span>
+            </div>
+            <div class="col">
+              <h2>03</h2>
+              <h3>Safe Delivery</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, velit laudantium corrupti voluptatibus quam illo!
+              </p>
+              <span>Hire a Truck</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- why choose movers end-->
+
+      <!-- services -->
+      <div>
+        <div class="row services-bg text-center">
+          <div class="container services-intro text-center my-auto">
+            <h2 class="">
+              We Provide a Wide Range of Services to Help<br />You Move Better
+            </h2>
+          </div>
+        </div>
+        <div class="row mt-5 display">
+          <div class="col-7 row">
+            <div class="col-one ml-5">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348334/image_9_lh44qg.png"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card mt-5">
+                <img
+                  class="card-img-top"
+                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348334/image_9_lh44qg.png"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+            <div class="col-two mt-5 ml-5">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348335/image_8_gb5uhw.png"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card mt-5">
+                <img
+                  class="card-img-top"
+                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348332/image_7_q2kcp3.png"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col our-services mt-5">
+            <div class="services-text">
+              <h5>OUR SERVICES</h5>
+              <h2>Always Ready to Help you Move Your Properties</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+                dolore ipsa quae deleniti corporis consectetur?
+              </p>
+            </div>
+            <div class="services mt-5">
+              <div class="row">
+                <div class="col-6">
+                  <img
+                    src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348338/Shape_v9abos.png"
+                    alt=""
+                  />
+                  <p>Residential Move</p>
+                </div>
+                <div class="col-6">
+                  <img
+                    src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348336/Shape_1_nngbjc.png"
+                    alt=""
+                  />
+                  <p>Commercial Move</p>
+                </div>
+                <div class="col-6">
+                  <img
+                    src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348336/Shape_2_zlogq7.png"
+                    alt=""
+                  />
+                  <p>Moving Truck Rental</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d_none text-center">
+          <div class="row mt-5 service_container">
+            <div class="col our-services mt-2">
+              <div class="services-text mx-5">
+                <h5>OUR SERVICES</h5>
+                <h2>Always Ready to Help you Move Your Properties</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+                  dolore ipsa quae deleniti corporis consectetur?
+                </p>
+              </div>
+              <div class="services mt-5">
+                <div class="row">
+                  <div class="col-6 col-sm-4 col-xs-4">
+                    <img
+                      src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348338/Shape_v9abos.png"
+                      alt=""
+                    />
+                    <p>Residential Move</p>
+                  </div>
+                  <div class="col-6 col-sm-4 col-xs-4">
+                    <img
+                      src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348336/Shape_1_nngbjc.png"
+                      alt=""
+                    />
+                    <p>Commercial Move</p>
+                  </div>
+                  <div class="col-6 col-sm-4 col-xs-4">
+                    <img
+                      src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348336/Shape_2_zlogq7.png"
+                      alt=""
+                    />
+                    <p>Moving Truck Rental</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col row ">
+            <!-- <div class="col-one ml-5"> -->
+            <div class="car mx-auto col-6">
+              <img
+                class="card-img-top img-fluid"
+                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348334/image_9_lh44qg.png"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="car mt-5 col-6">
+              <img
+                class="card-img-top img-fluid"
+                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348334/image_9_lh44qg.png"
+                alt="Card image cap"
+              />
+            </div>
+            <!-- </div> -->
+            <!-- <div class="col-two mt-5 ml-5"> -->
+            <div class="car mx-auto col-6">
+              <img
+                class="card-img-top img-fluid"
+                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348335/image_8_gb5uhw.png"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="car mt-5 col-6">
+              <img
+                class="card-img-top img-fluid"
+                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348332/image_7_q2kcp3.png"
+                alt="Card image cap"
+              />
+            </div>
+            <!-- </div> -->
+          </div>
         </div>
       </div>
-    </section>
-    <!-- into-end -->
+      <!-- services end -->
 
-    <!-- next move container -->
-    <div class="next-move container p-4 mx-auto">
-      <h2 class="mb-4">How will you like your next move?</h2>
-      <form>
-        <div class="form-row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Move From" />
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Move To" />
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Move Time" />
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Move Date" />
-          </div>
-          <button type="submit" class="btn btn-primary mb-2">Get Quote</button>
-        </div>
-      </form>
-    </div>
-    <!-- next move container END -->
-
-    <!-- About movers -->
-    <section>
-      <div class="container  movers">
-        <div class="row">
-          <div class="col movers-text my-auto">
-            <h5>ABOUT MOVERS</h5>
-            <h2>Best Moving Company Worldwide</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-              dolore ipsa quae deleniti corporis consectetur?
-            </p>
-          </div>
-          <div class="col">
+      <!-- footer start-->
+      <footer class="footer">
+        <div class="upper_footer d-flex justify-content-between mt-5">
+          <div class="logo_footer ml-5">
             <img
-              src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576343322/image_2_1_tynukp.png"
-              alt=""
-              class="img-fluid"
+              src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576158338/Group_3_uqrvap.jpg"
+              alt="logo"
             />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About movers -->
-
-    <!-- why choose movers -->
-    <section>
-      <div class="container  choose-movers">
-        <div class="choose-header text-center mt-5">
-          <h5>WHY CHOOSE MOVERS</h5>
-          <h2>We Make Moving Easy For You</h2>
-        </div>
-        <div class="row mt-5 choose">
-          <div class="col">
-            <h2>01</h2>
-            <h3>Free Quotes</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, velit laudantium corrupti voluptatibus quam illo!
-            </p>
-            <span>free quotes</span>
-          </div>
-          <div class="col">
-            <h2>02</h2>
-            <h3>Reliable</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, velit laudantium corrupti voluptatibus quam illo!
-            </p>
-            <span>Near By Movers</span>
-          </div>
-          <div class="col">
-            <h2>03</h2>
-            <h3>Safe Delivery</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, velit laudantium corrupti voluptatibus quam illo!
-            </p>
-            <span>Hire a Truck</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- why choose movers end-->
-
-    <!-- services -->
-    <div>
-      <div class="row services-bg text-center">
-        <div class="container services-intro text-center my-auto">
-          <h2 class="">
-            We Provide a Wide Range of Services to Help<br />You Move Better
-          </h2>
-        </div>
-      </div>
-      <div class="row mt-5 display">
-        <div class="col-7 row">
-          <div class="col-one ml-5">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348334/image_9_lh44qg.png"
-                alt="Card image cap"
-              />
-            </div>
-            <div class="card mt-5">
-              <img
-                class="card-img-top"
-                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348334/image_9_lh44qg.png"
-                alt="Card image cap"
-              />
-            </div>
-          </div>
-          <div class="col-two mt-5 ml-5">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348335/image_8_gb5uhw.png"
-                alt="Card image cap"
-              />
-            </div>
-            <div class="card mt-5">
-              <img
-                class="card-img-top"
-                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348332/image_7_q2kcp3.png"
-                alt="Card image cap"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="col our-services mt-5">
-          <div class="services-text">
-            <h5>OUR SERVICES</h5>
-            <h2>Always Ready to Help you Move Your Properties</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-              dolore ipsa quae deleniti corporis consectetur?
+              Lorem ipsum dolor, <br />sit amet consectetur adipisicing elit.
             </p>
           </div>
-          <div class="services mt-5">
-            <div class="row">
-              <div class="col-6">
-                <img
-                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348338/Shape_v9abos.png"
-                  alt=""
-                />
-                <p>Residential Move</p>
-              </div>
-              <div class="col-6">
-                <img
-                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348336/Shape_1_nngbjc.png"
-                  alt=""
-                />
-                <p>Commercial Move</p>
-              </div>
-              <div class="col-6">
-                <img
-                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348336/Shape_2_zlogq7.png"
-                  alt=""
-                />
-                <p>Moving Truck Rental</p>
-              </div>
-            </div>
+          <div class="footer_links d-flex mr-5">
+            <ul class="d-flex">
+              <li class="nav-item ">
+                <a class="nav-link " href="">
+                  <img class="social-links" src="./images/linkedin.png" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  <img class="social-links" src="./images/twitter.png" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  <img class="social-links" src="./images/facebook.png" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
 
-      <div class="d_none text-center">
-      <div class="row mt-5 service_container">
-                <div class="col our-services mt-2">
-          <div class="services-text mx-5">
-            <h5>OUR SERVICES</h5>
-            <h2>Always Ready to Help you Move Your Properties</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-              dolore ipsa quae deleniti corporis consectetur?
-            </p>
-          </div>
-          <div class="services mt-5">
-            <div class="row">
-              <div class="col-6 col-sm-4 col-xs-4">
-                <img
-                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348338/Shape_v9abos.png"
-                  alt=""
-                />
-                <p>Residential Move</p>
-              </div>
-              <div class="col-6 col-sm-4 col-xs-4">
-                <img
-                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348336/Shape_1_nngbjc.png"
-                  alt=""
-                />
-                <p>Commercial Move</p>
-              </div>
-              <div class="col-6 col-sm-4 col-xs-4">
-                <img
-                  src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348336/Shape_2_zlogq7.png"
-                  alt=""
-                />
-                <p>Moving Truck Rental</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col row ">
-          <!-- <div class="col-one ml-5"> -->
-            <div class="car mx-auto col-6">
-              <img
-                class="card-img-top img-fluid"
-                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348334/image_9_lh44qg.png"
-                alt="Card image cap"
-              />
-            </div>
-            <div class="car mt-5 col-6">
-              <img
-                class="card-img-top img-fluid"
-                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348334/image_9_lh44qg.png"
-                alt="Card image cap"
-              />
-            </div>
-          <!-- </div> -->
-          <!-- <div class="col-two mt-5 ml-5"> -->
-            <div class="car mx-auto col-6">
-              <img
-                class="card-img-top img-fluid"
-                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348335/image_8_gb5uhw.png"
-                alt="Card image cap"
-              />
-            </div>
-            <div class="car mt-5 col-6">
-              <img
-                class="card-img-top img-fluid"
-                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576348332/image_7_q2kcp3.png"
-                alt="Card image cap"
-              />
-            </div>
-          <!-- </div> -->
-        </div>
-        </div>
-    </div>
-    <!-- services end -->
-
-    <!-- footer start-->
-    <footer class="footer">
-      <div class="upper_footer d-flex justify-content-between mt-5">
-        <div class="logo_footer ml-5">
-          <img
-            src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576158338/Group_3_uqrvap.jpg"
-            alt="logo"
-          />
-          <p>Lorem ipsum dolor, <br />sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="footer_links d-flex mr-5">
-          <ul class="d-flex">
-            <li class="nav-item ">
-              <a class="nav-link " href="">
-                <img class="social-links" src="./images/linkedin.png" />
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">
-                <img class="social-links" src="./images/twitter.png" />
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">
-                <img class="social-links" src="./images/facebook.png" />
-              </a>
-            </li>
+        <div class="lower_footer ml-2">
+          <ul>
+            <l1>Copyright @ 20019 MOVERS</l1>
+            <l1 class="link_two mx-1"><a href="">Privacy Policy</a></l1>
+            <l1 class="link_three mx-1"><a href="">Terms of Use</a></l1>
           </ul>
         </div>
-      </div>
-
-      <div class="lower_footer ml-2">
-        <ul>
-          <l1>Copyright @ 20019 MOVERS</l1>
-          <l1 class="link_two mx-1"><a href="">Privacy Policy</a></l1>
-          <l1 class="link_three mx-1"><a href="">Terms of Use</a></l1>
-        </ul>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
     <!-- footer end -->
     <!-- footer end -->
     <!-- Optional JavaScript -->
@@ -387,5 +478,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-
 </html>
