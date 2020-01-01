@@ -575,7 +575,10 @@ padding: 20px;
   color: #FFFFFF;
 }
 
-
+.btn-border {
+  border: 1px solid #ffb800;
+  color: #ffb800;
+}
 
 
 
