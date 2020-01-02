@@ -584,3 +584,69 @@ padding: 20px;
   font-size: 0.8rem;
 }
 
+.five p {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1200px) {
+  .got-questions {
+    margin-top: 6rem;
+  }
+
+  .btn-color {
+    font-size: 0.6rem;
+    
+  }
+
+  .btn-border {
+    font-size: 0.6rem;
+  }
+
+  .border_frame p {
+    font-size: 0.6rem;
+  }
+
+  .five p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .first {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-color {
+    font-size: 0.45rem;
+
+  }
+
+  .btn-border {
+    font-size: 0.45rem;
+  }
+
+  .border_frame p {
+    font-size: 0.45rem;
+  }
+
+  .five p {
+    font-size: 0.45rem;
+  }
+
+  
+}
+
+.md-info p {
+  font-size: 0.45rem;
+}
+
+.border_frame .gotQ {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+
+/* .md-info {
+  display: ;
+} */
