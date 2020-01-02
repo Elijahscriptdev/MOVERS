@@ -580,5 +580,7 @@ padding: 20px;
   color: #ffb800;
 }
 
-
+.border_frame p {
+  font-size: 0.8rem;
+}
 
