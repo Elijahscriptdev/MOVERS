@@ -647,6 +647,27 @@ padding: 20px;
   margin-top: 2rem;
 }
 
-/* .md-info {
-  display: ;
-} */
+.bor-der {
+  border: 1px solid rgb(230, 228, 228) ;
+  padding: 2rem;
+}
+
+.bor-der .fas {
+  font-size: 5rem;
+  color: rgb(185, 181, 181);
+}
+
+.pay {
+  color: #ffb800;
+}
+
+.border_bottom {
+   border-bottom: 2px solid rgb(230, 228, 228) ;
+   padding-bottom: 0.5rem;
+}
+
+.confirm {
+  /* float: right; */
+  background-color:#ffb800;
+  /* margin-right: 0rem!important; */
+}
